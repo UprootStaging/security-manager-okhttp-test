@@ -44,7 +44,7 @@ public class App {
         .build();
 
     System.out.println("Creating okhttp request");
-    final Request request = new Request.Builder().url("https://stripe.com").build();
+    final Request request = new Request.Builder().url("https://square.com").build();
     client.newCall(request);
 
     System.out.println("All fine");
