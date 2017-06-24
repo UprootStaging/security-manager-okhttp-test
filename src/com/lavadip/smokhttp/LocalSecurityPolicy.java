@@ -1,4 +1,4 @@
-package com.lavadip.smt;
+package com.lavadip.smokhttp;
 
 import java.security.Policy;
 
