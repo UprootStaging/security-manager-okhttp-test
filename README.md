@@ -1,1 +1,1 @@
-This is a very simple template for working setting up the Security Manager in Java.
+This is a test for an okhttp issue https://github.com/square/okhttp/issues/3426
