@@ -21,7 +21,7 @@ public class App {
 
   public static void main(final String[] args) throws IOException, NoSuchAlgorithmException, KeyStoreException, KeyManagementException {
     Policy.setPolicy(LocalSecurityPolicy.getInstance());
-    System.setSecurityManager(new LocalSecurityManager());
+    System.setSecurityManager(new SecurityManager());
 
     System.out.println("Security manager installed.");
 
